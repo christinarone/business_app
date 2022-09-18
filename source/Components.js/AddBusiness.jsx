@@ -4,9 +4,9 @@ import Map from '../components/Map';
 
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import '../styles/AddListing.css';
+import '../styles/AddBusiness.css';
 
-const AddListing = (props) => {
+const AddBusiness = (props) => {
 	console.log('Add listing props:', props);
 	const navigate = useNavigate();
 	const [listing, setListing] = useState({
@@ -96,4 +96,4 @@ const AddListing = (props) => {
 	);
 };
 
-export default AddListing;
+export default AddBusiness;
