@@ -7,5 +7,5 @@ const mapStateToProps = (state) => (
     listings: state.listings
 }
 )
-
+//home
 export default connect(mapStateToProps)(Home)
