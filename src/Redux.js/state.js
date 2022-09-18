@@ -1,0 +1,3 @@
+export default {
+    //This is where I need to insert the API that includes user, listings etc...
+}
