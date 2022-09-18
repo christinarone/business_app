@@ -1,22 +1,18 @@
-
-
-//create a container for specific component to link up to redux
-
 import { connect } from 'react-redux';
-import AddBusiness from '../components/AddBusiness';
-import { addBusiness, fetchList } from '../redux/actions';
+import AddListing from '../components/AddListing';
+import { addListing, fetchLocation } from '../redux/actions';
 
-const mapStateToProps = ({ businesses }) => {
-  return {
-    businesses
-  }
-}
+const mapStateToProps = (state) => {
+	return {
+		listings: state.listings,
+	};
+};
 
 const mapDispatchToProps = (dispatch) => {
-  return {
-    addBusiness: (body) => dispatch(addBusiness(body)),
-    fetchList: () => dispatch(fetchList())
-  }
-}
+	return {
+		addListing: (listing) => dispatch(addListing(listing)),
+		// fetchLocation: (maplisting) => dispatch(fetchLocation(maplisting)),
+	};
+};
 
-export default connect(mapStateToProps, mapDispatchToProps)(AddBusiness)
+export default connect(mapStateToProps, mapDispatchToProps)(AddListing);
