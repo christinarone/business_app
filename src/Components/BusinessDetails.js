@@ -1,5 +1,5 @@
 import React from 'react';
-import Map from '../components/Map';
+import Map from './Map';
 import { useParams } from 'react-router-dom';
 import '../styles/BusinessDetails.css';
 

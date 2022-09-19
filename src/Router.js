@@ -1,10 +1,11 @@
 import React from "react";
 import { Routes, Route } from 'react-router'
-import Home from './components/Home'
+import Login from './Components/Login'
 
 const Router = () => (
     <Routes>
-        <Route path="/" element={<Home />} />
+        {/* Need to change home to one of my components */}
+        <Route path="/" element={<Login />} />
 
     </Routes>
 

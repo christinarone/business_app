@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Map from '../components/Map';
+import Map from './Map';
 
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
