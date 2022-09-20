@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-// import AddBusiness from '../components/AddBusiness';
-// import { addBusiness, fetchLocation } from '../redux/actions';
+import AddBusiness from '../Components/AddBusiness';
+import { addListing, fetchLocation } from '../Redux/actions';
 // import { addBusiness, fetchLocation } from '../import { connect } from 'react-redux''
 
 const mapStateToProps = (state) => {
@@ -11,7 +11,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
 	return {
-		addBusiness: (listing) => dispatch(addBusiness(listing)),
+		addListing: (listing) => dispatch(addListing(listing)),
 		// fetchLocation: (maplisting) => dispatch(fetchLocation(maplisting)),
 	};
 };

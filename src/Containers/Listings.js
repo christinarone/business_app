@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import Listings from '../Components/Listings';
-import { deleteListing } from '../redux/actions';
+import { deleteListing } from '../Redux/actions';
 
 const mapStateToProps = (state) => {
 	return {

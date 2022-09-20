@@ -12,6 +12,7 @@ export const addListing = (newListing) => {
 	};
 };
 
+
 export const deleteListing = (index) => {
 	return {
 		type: 'DELETE_LISTING',

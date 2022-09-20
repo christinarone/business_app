@@ -1,7 +1,7 @@
 import React from 'react';
 import Map from './Map';
 import { useParams } from 'react-router-dom';
-import '../styles/BusinessDetails.css';
+// import '../styles/BusinessDetails.css';
 
 const BusinessDetails = (props) => {
 	console.log(props.listings);

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Map from './Map';
+// import Map from './Map';
 
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import '../styles/AddBusiness.css';
+// import '../styles/AddBusiness.css';
 
 const AddBusiness = (props) => {
 	console.log('Add listing props:', props);
@@ -90,7 +90,7 @@ const AddBusiness = (props) => {
 				</form>
 			</div>
 			<div className="mapContainer">
-				<Map address={listing.address} />
+				{/* <Map address={listing.address} /> */}
 			</div>
 		</div>
 	);
