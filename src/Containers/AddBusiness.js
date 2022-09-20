@@ -1,6 +1,7 @@
 import { connect } from 'react-redux';
-import AddBusiness from '../components/AddBusiness';
-import { addBusiness, fetchLocation } from '../redux/actions';
+// import AddBusiness from '../components/AddBusiness';
+// import { addBusiness, fetchLocation } from '../redux/actions';
+// import { addBusiness, fetchLocation } from '../import { connect } from 'react-redux''
 
 const mapStateToProps = (state) => {
 	return {

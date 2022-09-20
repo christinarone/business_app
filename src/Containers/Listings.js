@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Listings from '../components/Listings';
+import Listings from '../Components/Listings';
 import { deleteListing } from '../redux/actions';
 
 const mapStateToProps = (state) => {
