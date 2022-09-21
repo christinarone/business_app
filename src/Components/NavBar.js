@@ -13,7 +13,8 @@ export default function NavBar(props) {
 	console.log('The nav props is:', props);
 	const cookies = cookie.parse(document.cookie);
 	return (
-		<Box sx={{ flexGrow: 1 }}>
+		
+			<Box sx={{ flexGrow: 1 }}>
 			<AppBar position="static" sx={{ backgroundColor: 'hsl(147, 50%, 46%)' }}>
 				<Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
 					<Typography variant="h6" component="div">
@@ -94,6 +95,8 @@ export default function NavBar(props) {
 					</h4>
 				)}
 			</div>
-		</Box>
+		</Box >
 	);
 }
+
+

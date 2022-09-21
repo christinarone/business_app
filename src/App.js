@@ -5,14 +5,19 @@ import { BrowserRouter } from 'react-router-dom';
 import Login from './Components/Login';
 import Router from './Router';
 import NavBar from './Containers/NavBar';
+import { Provider } from 'react-redux'
+import { createStore } from 'redux';
+import store from './Redux/store'
 
 function App() {
   return (
-    <BrowserRouter>
-    <NavBar />
-    <Login/>
-      <Router />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <NavBar />
+        {/* <Login/> */}
+        <Router />
+      </BrowserRouter>
+    // </Provider>
   );
 }
 
