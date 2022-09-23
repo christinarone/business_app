@@ -10,7 +10,7 @@ import { checkAuth } from '../Router';
 
 export default function NavBar(props) {
 	const navigate = useNavigate();
-	console.log('The nav props is:', props);
+	// console.log('The nav props is:', props);
 	const cookies = cookie.parse(document.cookie);
 	return (
 		
