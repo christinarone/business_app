@@ -36,7 +36,7 @@ export default function NavBar(props) {
 						{checkAuth() && (
 							<Button color="inherit" sx={{ marginRight: '1rem' }}>
 								<Link
-									to="/addListing"
+									to="/addBusiness"
 									style={{
 										color: 'white',
 										textDecoration: 'none',
